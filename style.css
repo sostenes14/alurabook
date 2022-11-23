@@ -1,0 +1,22 @@
+@import url("Styles/header.css");
+@import url("Styles/banner.css");
+@import url("Styles/carrocel.css");
+@import url("Styles/Topicos.css");
+
+:root{
+    --cor-de-fundo:#EBECEE;
+    --Branco:#FFFFFF;
+    --Laranja:#EB9B00;
+    --azul-degrade:linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal:"Poppins";
+    --Azul: #002F52;
+    --fonte-secundaria: Josefin Sans;
+    --Preto: #000000;
+    --Cinza: #858585;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight:400;
+}   
